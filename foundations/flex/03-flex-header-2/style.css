@@ -34,7 +34,7 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  
 }
 
 a {
@@ -45,4 +45,24 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+
+.header, .leftSideHeader,  ul {
+  display: flex;
+}
+li {
+  margin-right: 20px;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.rightSideHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 5px;
 }
