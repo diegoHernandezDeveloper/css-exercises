@@ -27,3 +27,64 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* layout  */
+
+body {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.main{
+  display: flex;
+  flex: auto;
+
+}
+
+.paragraphs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+}
+
+.paragraphs > div {
+  width: 300px;
+  padding: 15px;
+  
+}
+
+/* style  */
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  margin: 10px;
+  list-style: none;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
