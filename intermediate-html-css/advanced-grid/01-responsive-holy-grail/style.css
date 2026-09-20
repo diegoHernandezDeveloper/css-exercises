@@ -9,6 +9,9 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  grid-template: repeat(8, 1fr)  ;
+  gap: 10px;
 }
 
 .container div {
